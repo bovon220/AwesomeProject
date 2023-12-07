@@ -17,6 +17,7 @@ import Ex12 from './screens/week2/Ex12';
 import Greeting from './components/Greeting';
 import { View } from 'react-native';
 import Travel from './screens/week3/Travel';
+import Health from './screens/week5/Health';
 
 export default function App() {
   return (
@@ -30,7 +31,7 @@ export default function App() {
     // <Ex07/>
     // <Ex08/>
    // <Ex09/>
-     //<Ex10/>
+    //<Ex10/>
     //<Ex11/>
      //<Ex12/>
 
@@ -39,6 +40,7 @@ export default function App() {
     //     <Greeting name='Jaina' />
     //     <Greeting name='Valeera' />
     //   </View>
-    <Travel/>
+    //<Travel/>
+    <Health/>
   );
 }
