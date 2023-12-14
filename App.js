@@ -19,6 +19,8 @@ import { View } from 'react-native';
 import Travel from './screens/week3/Travel';
 import Health from './screens/week5/Health';
 
+import Resort from './screens/week4/Resort';
+
 export default function App() {
   return (
     //<Welcome/>
@@ -41,6 +43,8 @@ export default function App() {
     //     <Greeting name='Valeera' />
     //   </View>
     //<Travel/>
-    <Health/>
+    //<Health/>
+
+    <Resort/>
   );
 }

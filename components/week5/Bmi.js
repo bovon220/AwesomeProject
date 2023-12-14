@@ -46,7 +46,8 @@ export default function Bmi() {
                     <Text style={{ fontSize: 42, textAlign: "center" }}>{bmi}</Text>
                 </View>
                 <View style={{ flex: 1, marginLeft: 10, padding: 10, backgroundColor: "white", borderRadius: 10, height: 100, justifyContent: 'center' }}>
-                    <Text onPressButton={(newdescription) => setdescription(newdescription)} value={description} style={{ fontSize: 20, textAlign: "center" }}>{description}</Text>
+                    <Text onPressButton={(newdescription) => setdescription(newdescription)}
+                     value={description} style={{ fontSize: 20, textAlign: "center" }}>{description}</Text>
                 </View>
             </View>
 
