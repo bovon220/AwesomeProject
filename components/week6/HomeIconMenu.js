@@ -31,8 +31,8 @@ export default function HomeIconMenu() {
           onPress={() => { navigation.navigate("PokemonTab"); }} />
         <MyIcon title="Book Store" name="cubes" size={30} color="orange"
           onPress={() => { navigation.navigate("Book") }} />
-        <MyIcon title="xxx" name="question" size={30} color="orange"
-          onPress={() => { navigation.navigate("Book") }} />
+        <MyIcon title="Location" name="map-marker" size={30} color="orange"
+          onPress={() => { navigation.navigate("Location") }} />
         <MyIcon title="More" name="ellipsis-h" size={30} color="orange"
           onPress={() => { navigation.navigate("Book") }} />
       </View>
