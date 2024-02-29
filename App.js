@@ -27,34 +27,38 @@ import HomeStack from './navigations/HomeStack';
 import BottomTab from './navigations/BottomTab';
 import RootStack from './navigations/RootStack';
 
+import { AuthContext, AuthContextProvider } from "./hooks/AuthContextProvider";
+
 export default function App() {
   return (
-    <NavigationContainer>
-      {/* <HomeStack/> */}
-      {/* <BottomTab /> */}
-      <RootStack />
-    </NavigationContainer>
-    //<Welcome/>
-    //<Ex01/>
-    //<Ex02/>
-    //<Ex03/>
-    //<Ex04/>
-    //<Ex05/>
-    //<Ex06/>
-    //<Ex07/>
-    //<Ex08/>
-    //<Ex09/>
-    //<Ex10/>
-    //<Ex11/>
-    //<Ex12/>
-    //  <View style={{alignItems: 'center', top: 50}}>
-    //     <Greeting name='Rexxar' />
-    //     <Greeting name='Jaina' />
-    //     <Greeting name='Valeera' />
-    //   </View>
-    //<Travel/>
-    //<Health/>
-    //<Resort/>
-    //<Home/>
+    <AuthContextProvider>
+      <NavigationContainer>
+        {/* <HomeStack/> */}
+        {/* <BottomTab /> */}
+        <RootStack />
+      </NavigationContainer>
+      {/* //<Welcome />
+    <Ex01 />
+    <Ex02 />
+    <Ex03 />
+    <Ex04 />
+    <Ex05 />
+    <Ex06 />
+    <Ex07 />
+    <Ex08 />
+    <Ex09 />
+    <Ex10 />
+    <Ex11 />
+    <Ex12 />
+      <View style={{ alignItems: 'center', top: 50 }}>
+         <Greeting name='Rexxar' />
+         <Greeting name='Jaina' />
+         <Greeting name='Valeera' />
+       </View>
+    <Travel />
+    <Health />
+    <Resort />
+    <Home /> */}
+    </AuthContextProvider>
   );
 }
